@@ -1,0 +1,24 @@
+nav {
+	background: #000;
+	background: linear-gradient(#006600, #009900, #00cc00, #33ff33);
+	text-align: left;
+	border-radius: 10px;
+
+	
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav ul li a{
+	color: #fff;
+	text-transform: uppercase;
+	margin: 15px; 2px; 15px; 2px;
+	display: inline-block;
+
+}
