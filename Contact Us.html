@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="css/contact_us.css">
 </head>
 <body>
+
 	<div class="header">
 		<div class="logo">
 			<h1>MediCure Pharmaceutical (pvt) ltd</h1>
@@ -27,18 +28,31 @@
 		  <img src="Images/Contact-Us.jpg" style="width:100%">
 		</div>
 		<div class="column">
-		  <form style="font-size: 18px" action="Success.html">
+				<script>
+						function validateForm() {
+						var x = document.forms["myForm"]["fname"].value;
+						if (x == "") {
+							alert("First name is required");
+							return false;}
+						var x = document.forms["myForm"]["subject"].value;
+						if (x == "") {
+							alert("You must provide what do you need to ask from us");
+							return false;
+						}
+					} 
+				</script>
+		  <form name="myForm" style="font-size: 18px" action="Success.html" onsubmit="return validateForm()" method="post">
 			<label for="fname">First Name</label>
 			<input type="text" id="fname" name="firstname" placeholder="Your name please">
 			<label for="lname">Last Name</label>
 			<input type="text" id="lname" name="lastname" placeholder="Your last name please">
-			<label for="country">Country</label>
+			<label for="city">City</label>
 			<select id="city" name="city">
 					<option value="Batticaloa">Batticaloa</option>
 					<option value="Colombo">Colombo</option>
-			  		<option value="Jaffna">Jaffna</option>
-			    	<option value="Kandy">Kandy</option>
-					<option value="usa">Trincomalee</option>
+			  	<option value="Jaffna">Jaffna</option>
+			    <option value="Kandy">Kandy</option>
+					<option value="Trincomalee">Trincomalee</option>
 			</select>
 			<label for="subject">What do you need from us?</label>
 			<textarea id="subject" name="subject" placeholder="Your inquiry please ..." style="height:170px"></textarea>
