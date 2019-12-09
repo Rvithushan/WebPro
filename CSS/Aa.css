@@ -2,7 +2,7 @@ nav {
 	background: #000;
 	/* background: linear-gradient(#006600, #009900, #00cc00, #33ff33); */
 	text-align: left;
-	border-radius: 10px;
+	border-radius: 15px;
 
 	
 }
@@ -18,7 +18,7 @@ nav ul li {
 nav ul li a{
 	color: #fff;
 	text-transform: uppercase;
-	margin: 15px; 2px; 15px; 2px;
+	margin: 15px 10px 15px 10px;
 	display: inline-block;
 
 }
@@ -32,17 +32,12 @@ div.face {
 }
 
 div.face div.faceimage{
-	width: 350px;
+	width: 450px;
 	float: left;
 }
 
-
-
-
-
-
 div.face div.facetext {
-	width: 400px;
+	width: 500px;
 	float: right; 
 	text-shadow: unset;
 	text-shadow: transparent;
@@ -55,7 +50,9 @@ div.face div.facetext {
 	font-variant: small-caps;
 	text-align: center;
 	font-size: 25px;
-header .logo h1 {
+}
+
+.header logo:h1 {
 	background: #700;
 	background: linear-gradient(#8f246b, #cc3399, #d65cad,  #e085c2);
 	font-variant: small-caps;

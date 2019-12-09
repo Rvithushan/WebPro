@@ -18,7 +18,7 @@ nav ul li {
 nav ul li a{
 	color: #fff;
 	text-transform: uppercase;
-	margin: 15px; 2px; 15px; 2px;
+	margin: 15px, 2px, 15px, 2px;
 	display: inline-block;
 
 }
