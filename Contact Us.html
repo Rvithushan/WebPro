@@ -39,6 +39,11 @@
 							alert("You must provide what do you need to ask from us");
 							return false;
 						}
+						var x = document.forms["myForm"]["email"].value;
+						if (x == "") {
+							alert("Email address is required");
+							return false;
+						}
 					} 
 				</script>
 		  <form name="myForm" style="font-size: 18px" action="Success.html" onsubmit="return validateForm()" method="post">
@@ -54,6 +59,8 @@
 			    <option value="Kandy">Kandy</option>
 					<option value="Trincomalee">Trincomalee</option>
 			</select>
+			<label for="email">Email</label>
+			<input type="text" id="email" name="email" placeholder="Your email address please">
 			<label for="subject">What do you need from us?</label>
 			<textarea id="subject" name="subject" placeholder="Your inquiry please ..." style="height:170px"></textarea>
 			<input type="submit" value="SUBMIT">
