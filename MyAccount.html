@@ -105,6 +105,10 @@ span.psw {
   animation: animatezoom 0.6s
 }
 
+.button {
+    position: absolute;
+}
+
 @-webkit-keyframes animatezoom {
   from {-webkit-transform: scale(0)} 
   to {-webkit-transform: scale(1)}
@@ -144,11 +148,36 @@ span.psw {
 			<li><a href="Sales & Distributions.html">Sales & Distributions</a></li>
 			<li><a href="Contact Us.html">Contact Us</a></li>
 		</ul>
-	</nav>
+  </nav>
+  
+<div class="face">
 
-	<h2>Login to account</h2>
+	<div class="faceimage">
+		<img src="Images/myaccount.jpg" alt="Img5" width="1300px">
+	</div>
 
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<br>
+<br>
+<br>
+
+  <div class="facetext">
+	  <h2 align="center" style="color: navy">Login to your account</h2>
+
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;margin:auto;display:block;background-color:seagreen">LOGIN</button>
+
+  <br>
+  <br>
+
+    <form action="signup.html">
+    <!-- <input type="submit" value="SIGNUP" /> -->
+      <h2 align="center" style="color: navy">Create a new account</h2>
+      <button style="width:auto;margin:auto;display:block;background-color:seagreen">SIGNUP</button>
+
+    </form>
+  </div>
+
+</div>
 
 <div id="id01" class="modal">
   
