@@ -140,13 +140,12 @@ span.psw {
 	</div>
 	<nav>
 		<ul>
-			<li><a href="Index.html">Home</a></li>
-			<li><a href="About_us.html">About Us</a></li>
-			<li><a href="MyAccount.html">My Account</a></li>
-			<li><a href="Produts.html">Products </a></li>
-			<li><a href="Pharmacies.html">Pharmacies</a></li>
-			<!-- <li><a href="Sales & Distributions.html">Sales & Distributions</a></li> -->
-			<li><a href="Contact Us.html">Contact Us</a></li>
+      <li><a href="Indexhome.php">Home</a></li>
+			<li><a href="About_us.php">About Us</a></li>
+			<li><a href="MyAccount.php">My Account</a></li>
+			<li><a href="Produts.php">Products </a></li>
+			<li><a href="Pharmacies.php">Pharmacies</a></li>
+			<li><a href="Contact Us.php">Contact Us</a></li>
 		</ul>
   </nav>
   
